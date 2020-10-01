@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <h1>lets buiild hulu clone</h1>
        
-      <header
+      <Header/>
        {/* header */}
 
        {/*Nav */}
