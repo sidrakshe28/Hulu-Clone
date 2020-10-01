@@ -12,7 +12,7 @@ function Header() {
         <div className="header">
             <div className="header_icons">
 
-                <div className="header_icons">
+                <div className="header_icons header_icon--active">
                 <HomeIcon/>
                 <p>Home</p>
                 </div>

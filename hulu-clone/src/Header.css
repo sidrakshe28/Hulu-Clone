@@ -15,8 +15,12 @@
     margin-right: auto;
 }
 
+.header_icons--active >p  {
+    display:inline-flex !important;
+}
+
 .header_icons:hover >p {
-  display: inline;
+  display: inline-flex;
 }
 
 .header_icons > p {
