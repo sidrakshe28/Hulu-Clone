@@ -1,27 +1,37 @@
 .header {
     color:white; 
-    display:flex;
-    padding:20px;
-    align-items:center;
+    display: flex;
+    padding: 20px;
+    align-items: center;
     justify-content: space-between;
-    background-color: black;
+   
     overflow-x: scroll;
 
 }
 
-.header_icons > .MuiSvgIcon-root {
+.header::-webkit-scrollbar{
+    display: none;
+}
+
+.header{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+header_icons > .MuiSvgIcon-root {
     font-size: 30px;
     margin-left: auto;
     margin-right: auto;
 }
 
-.header_icons--active >p  {
+.header_icons--active > p  {
     display:inline-flex !important;
 }
 
-.header_icons:hover >p {
+.header_icons:hover > p {
   display: inline-flex;
 }
+
 
 .header_icons > p {
     display: none;
@@ -30,24 +40,24 @@
     margin-left: auto;
     margin-right: auto;
     font-size: small;
+  
 }
 
-
-
 .header_icons{
-    display:flex;
-    flex-direction: column;
+    display: flex;
+    flex-direction: row;
     cursor: pointer;
     width: 100px;
 }
 
 .header_icons {
-    display:flex;
+    display: flex;
     align-items: center;
     text-align: center;
 }
 
+
 .header > img{
     object-fit: contain;
-    height:80px;
+    height: 80px;
 }
