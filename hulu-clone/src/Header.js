@@ -13,6 +13,7 @@ function Header() {
             <div className="header_icons">
                 {/* all icons here... */}
                 <HomeIcon/>
+                <FlashOnIcon/>
 
             </div>
             <img src="https://press.hulu.com/wp-content/uploads/2020/02/hulu-white.png " alt=" " />
