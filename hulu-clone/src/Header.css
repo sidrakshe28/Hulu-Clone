@@ -1,12 +1,18 @@
 .header {
-    color: red;
+    color:white; 
     display:flex;
     padding:20px;
     align-items:center;
     justify-content: space-between;
     background-color: black;
     overflow-x: scroll;
-    
+
+}
+
+.header_icons {
+    display:flex;
+    align-items: center;
+    text-align: center;
 }
 
 .header > img{
