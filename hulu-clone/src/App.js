@@ -6,6 +6,13 @@ function App() {
     <div className="App">
       <h1>lets buiild hulu clone</h1>
        
+      <header
+       {/* header */}
+
+       {/*Nav */}
+
+       {/* Results */}
+
     </div>
   );
 }
