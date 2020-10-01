@@ -14,6 +14,7 @@ function Header() {
                 {/* all icons here... */}
                 <HomeIcon/>
                 <FlashOnIcon/>
+                <LiveTvIcon/>
 
             </div>
             <img src="https://press.hulu.com/wp-content/uploads/2020/02/hulu-white.png " alt=" " />
